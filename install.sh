@@ -9,3 +9,4 @@ sudo rm /etc/default/grub.d/*
 sudo cp cfg/angap.cfg /etc/default/grub.d
 sudo rm /boot/grub/grub.cfg
 sudo cp cfg/grub.cfg /boot/grub/
+sudo chown root /boot/grub/grub.cfg
